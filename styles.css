@@ -26,12 +26,12 @@ header h3 {
 header {
   text-align: center;
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
     url(images/header-image.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 275px 0;
+  padding: 140px 170px;
 }
 
 .center {
@@ -52,6 +52,58 @@ header a {
   text-decoration: none;
   margin-top: 25px;
   padding: 16px 32px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url(images/footer-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0px;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+footer h4 {
+  font-weight: 700;
+  line-height: 150%;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: white;
+  opacity: 60%;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+footer p {
+  color: white;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  opacity: 60%;
 }
 
 @media (max-width: 800px) {
@@ -97,6 +149,72 @@ header a {
     text-decoration: none;
     margin-top: 12.5px;
     padding: 16px 32px;
+  }
+
+  footer section {
+    max-width: 600px;
+    margin: 0px auto;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 75px 0;
+  }
+  header h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    margin: 0 auto;
+  }
+
+  header h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 0 auto;
+  }
+  header h3 {
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 12px;
+    margin-top: 13px;
+    line-height: 150%;
+  }
+
+  .center {
+    max-width: 500px;
+    margin: 0px auto;
+  }
+
+  header a {
+    font-weight: 700;
+    font-size: 7px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 12.5px;
+    padding: 16px 32px;
+  }
+
+  footer section {
+    max-width: 500px;
+    margin: 0px auto;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 body {
@@ -127,12 +245,12 @@ header h3 {
 header {
   text-align: center;
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
     url(images/header-image.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 275px 0;
+  padding: 140px 170px;
 }
 
 .center {
@@ -153,6 +271,58 @@ header a {
   text-decoration: none;
   margin-top: 25px;
   padding: 16px 32px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url(images/footer-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0px;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+footer h4 {
+  font-weight: 700;
+  line-height: 150%;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: white;
+  opacity: 60%;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+footer p {
+  color: white;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  opacity: 60%;
 }
 
 @media (max-width: 800px) {
@@ -198,5 +368,71 @@ header a {
     text-decoration: none;
     margin-top: 12.5px;
     padding: 16px 32px;
+  }
+
+  footer section {
+    max-width: 600px;
+    margin: 0px auto;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 75px 0;
+  }
+  header h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    margin: 0 auto;
+  }
+
+  header h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 0 auto;
+  }
+  header h3 {
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 12px;
+    margin-top: 13px;
+    line-height: 150%;
+  }
+
+  .center {
+    max-width: 500px;
+    margin: 0px auto;
+  }
+
+  header a {
+    font-weight: 700;
+    font-size: 7px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 12.5px;
+    padding: 16px 32px;
+  }
+
+  footer section {
+    max-width: 500px;
+    margin: 0px auto;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
