@@ -55,7 +55,7 @@ header a {
   padding: 16px 32px;
 }
 
-main {
+.section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1400px;
@@ -64,9 +64,33 @@ main {
   padding: 50px 75px;
 }
 
-main section {
-  display: flex;
-  max-width: 540px;
+.secondary {
+  max-width: 100%;
+  background-color: #f8f8f8;
+  padding: 50px 75px;
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 60px;
+}
+
+.cards {
+  background-color: white;
+}
+
+main button {
+  display: block;
+  margin: 0 auto;
+  color: white;
+  background-color: rgb(67, 12, 119);
+  padding: 16px;
+  width: 300;
+  height: 53;
+  gap: 10px;
+  border-radius: 12px;
+  padding: 16px 32px;
 }
 
 main h4 {
@@ -184,7 +208,7 @@ footer p {
     padding: 16px 32px;
   }
 
-  main {
+  .section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 800px;
@@ -193,11 +217,43 @@ footer p {
     padding: 25px 38px;
   }
 
-  img {
-    width: 400px;
+  .secondary {
+    max-width: 100%;
+    background-color: #f8f8f8;
+    padding: 25px 38px;
   }
-  main section {
-    display: flex;
+
+  .section2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .cards {
+    background-color: white;
+  }
+
+  .card-image {
+    width: 50%;
+  }
+
+  main button {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(67, 12, 119);
+    padding: 16px;
+    width: 300;
+    height: 53;
+    gap: 10px;
+    border-radius: 12px;
+    padding: 16px 32px;
+  }
+
+  button a {text-decoration: none; color: white;}
+
+
+  .img {
+    width: 400px;
   }
 
   main h4 {
@@ -274,7 +330,7 @@ footer p {
     padding: 16px 32px;
   }
 
-  main {
+  .section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 800px;
@@ -283,12 +339,40 @@ footer p {
     padding: 25px 38px;
   }
 
-  img {
+ .secondary {
+    max-width: 100%;
+    background-color: #f8f8f8;
+    padding: 25px 38px;
+  }
+
+  .section2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .cards {
+    background-color: white;
+  }
+
+  .card-image {
+    width: 180px;
+  }
+
+  main button {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(67, 12, 119);
+    padding: 16px;
+    width: 300;
+    height: 53;
+    gap: 10px;
+    border-radius: 12px;
+    padding: 16px 32px;
+  }
+
+  .img {
     width: 400px;
-  }
-  main section {
-    display: flex;
-  }
 
   main h4 {
     margin: 0px auto;
@@ -319,7 +403,7 @@ footer p {
   }
 }
 @media (max-width: 750px) {
-  img {
+  .img {
     width: 300px;
   }
 }
@@ -377,8 +461,8 @@ footer p {
     padding: 25px 35px;
   }
 
-  img {
-    width: 400px;
+  .img {
+    width: 300px;
     margin: 0px auto;
   }
 
